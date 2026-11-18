@@ -1,0 +1,1084 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>白桃少女在线看-剧集观看指南与讨论汇总</title>
+<meta name="description" content="白桃少女在线看是本次整理的核心线索，围绕剧集更新节奏、观看入口、角色设定与观众讨论展开，涵盖每集看点、时间线梳理、常见疑问与真实评论摘录，帮助读者按图索骥找到想看的内容与讨论位置。">
+<meta name="keywords" content="白桃少女在线看">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f7a8b8'/%3E%3Ccircle cx='32' cy='27' r='13' fill='%23fff3f5'/%3E%3Cpath d='M32 40c-9 0-15 6-16 14h32c-1-8-7-14-16-14z' fill='%23fff3f5'/%3E%3Cpath d='M22 20q10-9 20 0' stroke='%23c2435d' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --peach:#f7a8b8;
+  --peach-deep:#c2435d;
+  --peach-soft:#fde7ec;
+  --cream:#fffaf7;
+  --ink:#2d2430;
+  --ink-2:#5c4f60;
+  --ink-3:#8a7c8e;
+  --line:#efe1e6;
+  --gold:#c79a4b;
+  --green:#4f8a72;
+  --bg:#fbf6f4;
+  --card:#ffffff;
+  --radius:14px;
+  --radius-sm:8px;
+  --shadow:0 2px 10px rgba(120,70,90,.07);
+  --shadow-lg:0 10px 30px rgba(120,70,90,.12);
+  --sp-1:8px; --sp-2:14px; --sp-3:22px; --sp-4:34px; --sp-5:52px;
+  --font: "PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --stick-offset:96px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;font-family:var(--font);background:var(--bg);color:var(--ink);
+  line-height:1.75;font-size:16px;-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:var(--peach-deep);text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1,h2,h3,h4{margin:0;line-height:1.35;color:var(--ink);}
+p{margin:0 0 var(--sp-2);}
+ul,ol{margin:0 0 var(--sp-2);padding-left:1.2em;}
+li{margin-bottom:6px;}
+button{font-family:inherit;cursor:pointer;}
+:focus-visible{outline:3px solid var(--peach-deep);outline-offset:2px;border-radius:4px;}
+
+/* sticky group */
+.sticky-wrap{position:sticky;top:0;z-index:60;}
+.announce{
+  background:linear-gradient(90deg,#3a2a36,#513547 60%,#6b3d52);
+  color:#ffe6ec;font-size:13.5px;padding:7px 16px;
+  display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:center;
+  text-align:center;
+}
+.announce strong{color:#ffc2d2;font-weight:600;}
+.announce .dot{width:6px;height:6px;border-radius:50%;background:#ffc2d2;display:inline-block;}
+.site-header{
+  background:rgba(255,250,247,.94);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);box-shadow:var(--shadow);
+}
+.header-inner{
+  max-width:1180px;margin:0 auto;padding:10px 20px;
+  display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;color:var(--ink);}
+.brand:hover{text-decoration:none;}
+.brand svg{width:34px;height:34px;flex:none;}
+.brand-text{letter-spacing:.5px;}
+.main-nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap;}
+.main-nav a{
+  color:var(--ink-2);font-size:14.5px;padding:6px 10px;border-radius:20px;font-weight:500;
+  transition:background .15s,color .15s;
+}
+.main-nav a:hover{background:var(--peach-soft);color:var(--peach-deep);text-decoration:none;}
+.nav-toggle{
+  margin-left:auto;display:none;background:var(--peach-soft);border:1px solid var(--line);
+  color:var(--peach-deep);border-radius:10px;padding:8px 12px;font-size:14px;align-items:center;gap:6px;
+}
+.header-extra{display:flex;align-items:center;gap:10px;}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  border-radius:24px;padding:9px 18px;font-size:14.5px;font-weight:600;
+  border:1px solid transparent;transition:transform .15s,box-shadow .15s,background .15s;
+}
+.btn:hover{text-decoration:none;transform:translateY(-2px);}
+.btn-primary{background:var(--peach-deep);color:#fff;box-shadow:0 4px 12px rgba(194,67,93,.28);}
+.btn-primary:hover{background:#a93750;}
+.btn-ghost{background:#fff;border-color:var(--line);color:var(--ink-2);}
+.btn-ghost:hover{border-color:var(--peach);color:var(--peach-deep);}
+.search-wrap{position:relative;display:flex;align-items:center;}
+.search-wrap input[type="search"]{
+  width:190px;border:1px solid var(--line);background:#fff;border-radius:22px;
+  padding:8px 14px 8px 34px;font-size:14px;color:var(--ink);
+}
+.search-wrap input:focus{outline:none;border-color:var(--peach);box-shadow:0 0 0 3px var(--peach-soft);}
+.search-wrap .glass{position:absolute;left:12px;pointer-events:none;color:var(--ink-3);}
+.search-feedback{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;background:#fff;border:1px solid var(--line);
+  border-radius:12px;box-shadow:var(--shadow-lg);padding:10px 14px;font-size:13.5px;color:var(--ink-2);
+  display:none;z-index:80;min-width:240px;
+}
+.search-feedback.show{display:block;}
+.search-feedback b{color:var(--peach-deep);}
+
+.container{max-width:1180px;margin:0 auto;padding:0 20px;}
+section{scroll-margin-top:var(--stick-offset);}
+.anchor-target{display:block;position:relative;top:-96px;visibility:hidden;}
+
+/* HERO */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(1100px 420px at 82% -10%, #ffe3ea 0%, rgba(255,227,234,0) 62%),
+    radial-gradient(760px 380px at -6% 32%, #fdeff2 0%, rgba(253,239,242,0) 58%),
+    linear-gradient(180deg,#f9f1ee 0%,var(--bg) 100%);
+  border-bottom:1px solid var(--line);
+}
+.hero-inner{
+  max-width:1180px;margin:0 auto;padding:52px 20px 46px;
+  display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:40px;align-items:center;
+}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);
+  color:var(--peach-deep);border-radius:20px;padding:5px 14px;font-size:13px;font-weight:600;
+  box-shadow:var(--shadow);margin-bottom:18px;
+}
+.hero-tag .dot{width:7px;height:7px;background:var(--green);border-radius:50%;}
+.hero h1{
+  font-size:clamp(30px,4.4vw,50px);letter-spacing:1px;font-weight:800;margin-bottom:16px;
+}
+.hero h1 .hl{
+  background:linear-gradient(transparent 62%, #ffd3de 62%);
+  padding:0 4px;
+}
+.hero-lead{font-size:16.5px;color:var(--ink-2);max-width:520px;margin-bottom:24px;}
+.hero-lead strong{color:var(--ink);}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:26px;}
+.hero-stats{display:flex;flex-wrap:wrap;gap:10px 28px;font-size:13.5px;color:var(--ink-3);}
+.hero-stats b{display:block;font-size:20px;color:var(--ink);font-weight:800;line-height:1.2;}
+.hero-art{position:relative;min-height:330px;}
+.hero-art svg{width:100%;height:auto;filter:drop-shadow(0 16px 28px rgba(170,100,120,.16));}
+.hero-art .float-card{
+  position:absolute;background:#fff;border:1px solid var(--line);border-radius:12px;
+  box-shadow:var(--shadow-lg);padding:9px 14px;font-size:12.5px;color:var(--ink-2);line-height:1.5;
+}
+.hero-art .fc1{top:6%;right:0;}
+.hero-art .fc1 b{color:var(--peach-deep);}
+.hero-art .fc2{bottom:4%;left:0;}
+.hero-art .fc2 b{color:var(--green);}
+
+/* layout */
+.layout{
+  max-width:1180px;margin:0 auto;padding:36px 20px 60px;
+  display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:38px;align-items:start;
+}
+.main-col{min-width:0;}
+.side-col{position:sticky;top:calc(var(--stick-offset) + 8px);}
+.block{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;margin-bottom:26px;box-shadow:var(--shadow);}
+.block-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px;}
+.block-head h2{font-size:21px;letter-spacing:.3px;}
+.block-head .kicker{font-size:12.5px;color:var(--peach-deep);background:var(--peach-soft);border-radius:12px;padding:2px 10px;font-weight:600;}
+.block-sub{color:var(--ink-3);font-size:13.5px;margin-bottom:18px;}
+.block p:last-child{margin-bottom:0;}
+
+/* overview mini cards */
+.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;}
+.mini-card{background:var(--cream);border:1px solid var(--line);border-radius:var(--radius-sm);padding:16px;transition:transform .15s,box-shadow .15s;}
+.mini-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);}
+.mini-card h3{font-size:15.5px;margin-bottom:6px;color:var(--ink);}
+.mini-card p{font-size:13.5px;color:var(--ink-2);margin:0;}
+.mini-card .num{font-size:12px;color:var(--peach-deep);font-weight:700;letter-spacing:1px;display:block;margin-bottom:4px;}
+
+/* feature cards */
+.feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.feature-card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff;transition:transform .15s,box-shadow .15s;}
+.feature-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);}
+.feature-card img{width:100%;height:150px;object-fit:cover;}
+.feature-card .fc-body{padding:14px 16px 16px;}
+.feature-card .fc-meta{font-size:12px;color:var(--peach-deep);font-weight:600;margin-bottom:4px;}
+.feature-card h3{font-size:16px;margin-bottom:6px;}
+.feature-card p{font-size:13.5px;color:var(--ink-2);margin:0;}
+
+/* compact list */
+.list-tight{list-style:none;margin:0;padding:0;}
+.list-tight li{display:flex;gap:12px;padding:12px 0;border-bottom:1px dashed var(--line);align-items:flex-start;}
+.list-tight li:last-child{border-bottom:none;padding-bottom:0;}
+.list-tight .date{
+  flex:none;font-size:12.5px;color:var(--peach-deep);background:var(--peach-soft);
+  border-radius:6px;padding:2px 8px;font-weight:600;margin-top:2px;white-space:nowrap;
+}
+.list-tight .txt{font-size:14.5px;color:var(--ink-2);}
+.list-tight .txt b{color:var(--ink);font-weight:600;}
+.list-tight .tagline{color:var(--ink-3);font-size:12.5px;display:block;}
+
+/* channel index */
+.channel-index{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;}
+.channel-index a{
+  display:block;background:var(--cream);border:1px solid var(--line);border-radius:10px;
+  padding:12px 12px;font-size:14px;font-weight:600;color:var(--ink);transition:all .15s;
+}
+.channel-index a:hover{background:var(--peach-soft);border-color:var(--peach);color:var(--peach-deep);text-decoration:none;}
+.channel-index a span{display:block;font-size:12px;color:var(--ink-3);font-weight:400;margin-top:2px;}
+
+/* deep analysis */
+.deep h3{font-size:16.5px;margin:22px 0 8px;padding-left:12px;border-left:4px solid var(--peach);}
+.deep h3:first-child{margin-top:0;}
+.deep p{font-size:15px;color:var(--ink-2);}
+.quote-card{
+  background:var(--peach-soft);border-left:4px solid var(--peach-deep);border-radius:0 var(--radius-sm) var(--radius-sm) 0;
+  padding:14px 18px;margin:16px 0;font-size:14.5px;color:var(--ink);font-style:normal;
+}
+.quote-card cite{display:block;font-size:12.5px;color:var(--ink-3);font-style:normal;margin-top:6px;}
+.compare-table{width:100%;border-collapse:collapse;font-size:13.8px;margin:14px 0;}
+.compare-table th,.compare-table td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top;}
+.compare-table th{background:var(--cream);color:var(--ink);font-weight:600;}
+.compare-table td{color:var(--ink-2);}
+.fact-box{background:var(--cream);border:1px dashed var(--peach);border-radius:var(--radius-sm);padding:14px 16px;margin:14px 0;font-size:14px;color:var(--ink-2);}
+.fact-box b{color:var(--ink);}
+.fact-box ul{margin:8px 0 0;padding-left:1.1em;}
+
+/* steps */
+.steps{counter-reset:step;list-style:none;margin:0;padding:0;}
+.steps li{position:relative;padding:0 0 18px 52px;counter-increment:step;}
+.steps li::before{
+  content:counter(step);position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;
+  background:var(--peach-deep);color:#fff;display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:15px;
+}
+.steps li h3{font-size:15.5px;margin-bottom:4px;}
+.steps li p{font-size:14px;color:var(--ink-2);margin:0;}
+.steps li:not(:last-child)::after{content:"";position:absolute;left:16px;top:36px;bottom:2px;width:2px;background:var(--line);}
+
+/* FAQ */
+details.faq{border:1px solid var(--line);border-radius:var(--radius-sm);padding:0;margin-bottom:10px;background:var(--cream);}
+details.faq summary{
+  list-style:none;cursor:pointer;padding:13px 16px;font-weight:600;font-size:14.8px;color:var(--ink);
+  display:flex;align-items:center;gap:10px;
+}
+details.faq summary::-webkit-details-marker{display:none;}
+details.faq summary::before{
+  content:"+";flex:none;width:20px;height:20px;border-radius:50%;background:#fff;border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--peach-deep);
+}
+details.faq[open] summary::before{content:"–";}
+details.faq .faq-body{padding:0 16px 14px 46px;font-size:14px;color:var(--ink-2);}
+
+/* reviews */
+.review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.review{background:var(--cream);border:1px solid var(--line);border-radius:var(--radius-sm);padding:16px;}
+.review .who{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:13px;color:var(--ink-3);}
+.review .avatar{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;}
+.review p{font-size:14px;color:var(--ink-2);margin:0 0 8px;}
+.review .stars{font-size:12.5px;color:var(--gold);letter-spacing:1px;}
+.review .ref{font-size:12.5px;color:var(--ink-3);}
+
+/* news */
+.news-list{list-style:none;margin:0;padding:0;}
+.news-list li{padding:12px 0;border-bottom:1px dashed var(--line);}
+.news-list li:last-child{border-bottom:none;}
+.news-list .src{font-size:12.5px;color:var(--ink-3);}
+.news-list .head{font-size:14.8px;font-weight:600;color:var(--ink);}
+.news-list .head:hover{color:var(--peach-deep);}
+
+/* tags */
+.tag-cloud{display:flex;flex-wrap:wrap;gap:8px;}
+.tag-cloud a{
+  background:var(--cream);border:1px solid var(--line);border-radius:16px;
+  padding:5px 13px;font-size:13.5px;color:var(--ink-2);transition:all .15s;
+}
+.tag-cloud a:hover{background:var(--peach-deep);color:#fff;border-color:var(--peach-deep);text-decoration:none;}
+
+/* timeline */
+.timeline{list-style:none;margin:0;padding:0 0 0 22px;position:relative;}
+.timeline::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:var(--line);}
+.timeline li{position:relative;padding-bottom:16px;font-size:14px;color:var(--ink-2);}
+.timeline li::before{content:"";position:absolute;left:-22px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--peach);border:2px solid #fff;box-shadow:0 0 0 1px var(--line);}
+.timeline b{color:var(--ink);}
+.timeline .t{font-weight:700;color:var(--peach-deep);margin-right:6px;}
+
+/* sidebar */
+.side-box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px;margin-bottom:20px;box-shadow:var(--shadow);}
+.side-box h2{font-size:15.5px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--line);}
+.side-nav{list-style:none;margin:0;padding:0;}
+.side-nav a{display:block;font-size:14px;color:var(--ink-2);padding:7px 10px;border-radius:8px;border-left:3px solid transparent;}
+.side-nav a:hover{background:var(--peach-soft);color:var(--peach-deep);text-decoration:none;}
+.side-nav a.active{background:var(--peach-soft);color:var(--peach-deep);border-left-color:var(--peach-deep);font-weight:600;}
+.side-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.side-stats div{background:var(--cream);border-radius:10px;padding:10px 12px;text-align:center;}
+.side-stats b{display:block;font-size:19px;color:var(--peach-deep);}
+.side-stats span{font-size:12px;color:var(--ink-3);}
+.side-note{font-size:13px;color:var(--ink-3);margin-top:12px;line-height:1.7;}
+
+/* footer */
+.site-footer{background:#2f2533;color:#d9cbd6;margin-top:20px;}
+.footer-inner{max-width:1180px;margin:0 auto;padding:44px 20px 26px;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:30px;}
+.footer-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:#fff;margin-bottom:10px;}
+.footer-brand svg{width:30px;height:30px;}
+.footer-inner p{font-size:13px;color:#b9a7b6;margin:0 0 8px;}
+.footer-col h3{font-size:14px;color:#fff;margin-bottom:10px;}
+.footer-col a{display:block;font-size:13px;color:#c4b3c1;padding:3px 0;}
+.footer-col a:hover{color:#ffc2d2;}
+.footer-bottom{border-top:1px solid #463a4a;max-width:1180px;margin:0 auto;padding:16px 20px 24px;font-size:12.5px;color:#a6909f;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;}
+
+/* back to top */
+#backTop{
+  position:fixed;right:18px;bottom:22px;width:44px;height:44px;border-radius:50%;
+  background:var(--peach-deep);color:#fff;border:none;box-shadow:var(--shadow-lg);
+  display:none;align-items:center;justify-content:center;font-size:18px;z-index:90;
+}
+#backTop.show{display:flex;}
+#backTop:hover{background:#a93750;}
+
+@media (max-width:1000px){
+  .layout{grid-template-columns:1fr;}
+  .side-col{position:static;order:2;}
+  .main-col{order:1;}
+  .hero-inner{grid-template-columns:1fr;gap:26px;}
+  .hero-art{max-width:440px;}
+  .footer-inner{grid-template-columns:1fr 1fr;}
+  .channel-index{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@media (max-width:760px){
+  .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;padding:10px 16px 16px;box-shadow:var(--shadow-lg);gap:2px;}
+  .main-nav.open{display:flex;}
+  .main-nav a{padding:9px 10px;}
+  .header-inner{position:relative;gap:10px 12px;}
+  .nav-toggle{display:inline-flex;}
+  .search-wrap{margin-left:0;order:5;width:100%;}
+  .search-wrap input[type="search"]{width:100%;}
+  .header-extra .btn{display:none;}
+  .grid-3,.feature-grid,.review-grid{grid-template-columns:1fr;}
+  .hero h1{font-size:30px;}
+  .block{padding:20px 16px;}
+  .footer-inner{grid-template-columns:1fr;gap:22px;}
+  .hero-art .float-card{font-size:11.5px;padding:7px 10px;}
+  .compare-table{font-size:12.8px;}
+  .compare-table th,.compare-table td{padding:7px 8px;}
+}
+@media (max-width:400px){
+  .channel-index{grid-template-columns:1fr;}
+}
+@media (prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto !important;transition:none !important;animation:none !important;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sticky-wrap">
+  <div class="announce" role="note" aria-label="站内更新公告">
+    <span class="dot" aria-hidden="true"></span>
+    <span><strong>白桃少女在线看</strong> 专题 · 11 月 8 日更新：第 9 集分镜稿释出、角色关系图 v3 已替换</span>
+    <span>昨日补齐 10 条观众短评</span>
+    <span>本周新增 4 个频道入口</span>
+  </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/#top" aria-label="白桃少女在线看 首页">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <defs>
+            <linearGradient id="gPeach" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ffc2d2"/>
+              <stop offset="1" stop-color="#f7a8b8"/>
+            </linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="15" fill="url(#gPeach)"/>
+          <circle cx="32" cy="30" r="13.5" fill="#fff5f7"/>
+          <path d="M32 43c-9.5 0-16 6.4-17 15h34c-1-8.6-7.5-15-17-15z" fill="#fff5f7"/>
+          <path d="M32 17c-4.5 0-8 3.2-8 7.5 0 1.6.5 3 1.3 4.2l-3.6 1.6 3 3.8-2 1 4.3 2" stroke="#c2435d" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M32 17c4.5 0 8 3.2 8 7.5 0 1.6-.5 3-1.3 4.2l3.6 1.6-3 3.8 2 1-4.3 2" stroke="#c2435d" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="27" cy="29" r="1.6" fill="#6b3d52"/>
+          <circle cx="37" cy="29" r="1.6" fill="#6b3d52"/>
+        </svg>
+        <span class="brand-text">白桃少女在线看</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="展开主题导航">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        导航
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="主题导航">
+        <a href="/#overview">领域概览</a>
+        <a href="/#picks">精选推荐</a>
+        <a href="/#latest">最新更新</a>
+        <a href="/#channels">分类频道</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+      </nav>
+
+      <div class="header-extra">
+        <button class="btn btn-primary" type="button" onclick="document.getElementById('searchInput').focus()">查条目</button>
+      </div>
+
+      <div class="search-wrap">
+        <svg class="glass" width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.7" fill="none"/><path d="M11 11l3.2 3.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" id="searchInput" placeholder="搜索角色、集数、术语…" aria-label="站内搜索" autocomplete="off">
+        <div class="search-feedback" id="searchFeedback" role="status" aria-live="polite"></div>
+      </div>
+    </div>
+  </header>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top" aria-label="专题首屏">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <span class="hero-tag"><span class="dot" aria-hidden="true"></span>剧集观察 · 逐集拆解 · 观众讨论</span>
+      <h1>白桃少女<span class="hl">在线看</span></h1>
+      <p class="hero-lead">
+        围绕这部以“白桃”作视觉母题的少女向剧集，记录<strong>第 1 至第 9 集</strong>的画面细节、角色关系与分镜处理。
+        收录 <strong>12 个频道入口</strong>、<strong>37 条观众短评</strong>，以及能对照集数核对的观看顺序表。
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/#picks">看本集精选条目</a>
+        <a class="btn btn-ghost" href="/#deep">读深度拆解</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>9</b>已释出集数</div>
+        <div><b>12</b>频道入口</div>
+        <div><b>37</b>观众短评</div>
+        <div><b>3</b>版关系图</div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 460 380" role="img">
+        <defs>
+          <linearGradient id="peachBody" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffd9e2"/><stop offset="1" stop-color="#f291a8"/>
+          </linearGradient>
+          <linearGradient id="skyBg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#fff6f8"/><stop offset="1" stop-color="#fbe6ec"/>
+          </linearGradient>
+          <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <rect x="6" y="6" width="448" height="368" rx="26" fill="url(#skyBg)"/>
+        <circle cx="230" cy="176" r="132" fill="url(#glow)"/>
+        <!-- film frame cards -->
+        <g opacity="0.95">
+          <rect x="44" y="52" width="120" height="80" rx="10" fill="#fff" stroke="#f2dbe1"/>
+          <rect x="44" y="52" width="120" height="80" rx="10" fill="#fde7ec" opacity=".45"/>
+          <circle cx="104" cy="86" r="19" fill="url(#peachBody)"/>
+          <path d="M104 74c-5 0-9 3.4-9 7.6 0 1.6.5 3 1.3 4.2l-3.6 1.6 3 3.8-2 1 4.3 2" stroke="#c2435d" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <path d="M104 74c5 0 9 3.4 9 7.6 0 1.6-.5 3-1.3 4.2l3.6 1.6-3 3.8 2 1-4.3 2" stroke="#c2435d" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <rect x="60" y="112" width="55" height="6" rx="3" fill="#f2dbe1"/>
+          <rect x="60" y="122" width="36" height="5" rx="2.5" fill="#f7e3e9"/>
+        </g>
+        <g opacity="0.95">
+          <rect x="298" y="84" width="118" height="78" rx="10" fill="#fff" stroke="#f2dbe1"/>
+          <rect x="310" y="98" width="94" height="8" rx="4" fill="#f7e3e9"/>
+          <rect x="310" y="114" width="70" height="6" rx="3" fill="#f2dbe1"/>
+          <rect x="310" y="128" width="94" height="6" rx="3" fill="#f2dbe1"/>
+          <rect x="310" y="142" width="52" height="6" rx="3" fill="#f9e9ee"/>
+        </g>
+        <!-- central peach girl flower -->
+        <g transform="translate(230 214)">
+          <circle cx="0" cy="0" r="86" fill="#fff" stroke="#f4dbe1" stroke-width="2"/>
+          <g fill="#ffd0dc">
+            <ellipse cx="0" cy="-54" rx="24" ry="34"/>
+            <ellipse cx="0" cy="54" rx="24" ry="34"/>
+            <ellipse cx="-54" cy="0" rx="34" ry="24"/>
+            <ellipse cx="54" cy="0" rx="34" ry="24"/>
+            <ellipse cx="-40" cy="-40" rx="22" ry="30" transform="rotate(-45 -40 -40)"/>
+            <ellipse cx="40" cy="40" rx="22" ry="30" transform="rotate(-45 40 40)"/>
+            <ellipse cx="40" cy="-40" rx="22" ry="30" transform="rotate(45 40 -40)"/>
+            <ellipse cx="-40" cy="40" rx="22" ry="30" transform="rotate(45 -40 40)"/>
+          </g>
+          <circle cx="0" cy="0" r="42" fill="url(#peachBody)"/>
+          <circle cx="-13" cy="-8" r="4" fill="#6b3d52"/>
+          <circle cx="13" cy="-8" r="4" fill="#6b3d52"/>
+          <path d="M-8 10q8 8 16 0" stroke="#6b3d52" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <path d="M-26 -26q26-16 52 0" stroke="#c2435d" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </g>
+        <g stroke="#f291a8" stroke-width="2" opacity=".5" fill="none">
+          <path d="M170 60c10 12 26 14 38 8"/>
+          <path d="M292 300c8-10 22-12 32-6"/>
+        </g>
+      </svg>
+      <div class="float-card fc1"><b>第 9 集</b> 分镜稿 22 张</div>
+      <div class="float-card fc2"><b>v3 关系图</b> 已核对 14 条连线</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LAYOUT ================= -->
+<div class="layout">
+  <main class="main-col">
+
+    <!-- 1 概览 -->
+    <section class="block" id="overview" aria-labelledby="h-overview">
+      <div class="block-head">
+        <span class="kicker">01 领域概览</span>
+        <h2 id="h-overview">白桃少女在线看 的题材位置与基本盘</h2>
+      </div>
+      <p class="block-sub">从类型、篇幅与画风三个维度定位这部作品，先建立可对照的坐标，再决定追哪几条线。</p>
+      <div class="grid-3">
+        <div class="mini-card">
+          <span class="num">TYPE</span>
+          <h3>少女成长与日常悬疑</h3>
+          <p>主线以校园祭筹备为壳，壳里塞了失踪信件与旧照片。第 1 集 21 分 40 秒的信封特写是线索起点，后续每集平均回收 1.5 条。</p>
+        </div>
+        <div class="mini-card">
+          <span class="num">FORMAT</span>
+          <h3>单集 24 分钟 · 已释出 9 集</h3>
+          <p>分镜稿按集释出，11 月 8 日放出第 9 集的 22 张。片头统一 78 秒，片尾彩蛋只在第 3、6、9 集出现。</p>
+        </div>
+        <div class="mini-card">
+          <span class="num">STYLE</span>
+          <h3>低饱和粉调与手绘线</h3>
+          <p>主色集中在 #f7a8b8 附近，室内场景用暖白压灰，室外多用青灰补色。角色立绘线条为 1.5px，与常见 TV 动画的 2px 略细。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 精选推荐 -->
+    <section class="block" id="picks" aria-labelledby="h-picks">
+      <div class="block-head">
+        <span class="kicker">02 精选推荐</span>
+        <h2 id="h-picks">四组值得先看的条目</h2>
+      </div>
+      <p class="block-sub">按“信息密度”而非“出场时长”挑，每组给出去看的位置和核对依据。</p>
+      <div class="feature-grid">
+        <a class="feature-card" href="/#deep">
+          <img src="https://picsum.photos/seed/peachgirl-letter/560/320" width="560" height="320" loading="lazy" alt="第 3 集信封特写分镜，木质桌面上放着盖有旧邮戳的信封">
+          <div class="fc-body">
+            <div class="fc-meta">第 3 集 · 12:04</div>
+            <h3>旧邮戳信封的三次出现</h3>
+            <p>12 分 04 秒的信封与第 1 集 21 分 40 秒同款，但邮戳城市不同。两次对照即可锁定失踪信件的寄出地。</p>
+          </div>
+        </a>
+        <a class="feature-card" href="/#deep">
+          <img src="https://picsum.photos/seed/peachgirl-roof/560/320" width="560" height="320" loading="lazy" alt="天台场景构图，粉调天空下一名少女站在栏杆旁">
+          <div class="fc-body">
+            <div class="fc-meta">第 5 集 · 06:30</div>
+            <h3>天台对手戏的站位变化</h3>
+            <p>第 1 次两人相隔 2.4 米，第 2 次缩短到 1.1 米。台词没变，机位从平视切到过肩，情绪因此改写。</p>
+          </div>
+        </a>
+        <a class="feature-card" href="/#channels">
+          <img src="https://picsum.photos/seed/peachgirl-notes/560/320" width="560" height="320" loading="lazy" alt="手写笔记与角色关系图草稿铺在桌面上">
+          <div class="fc-body">
+            <div class="fc-meta">资料 · 关系图 v3</div>
+            <h3>14 条人物连线的版本差异</h3>
+            <p>v2 把美术部学长与主角标为“同级”，v3 改成“学长”。这条改动牵动第 7 集的称呼台词，旧图已标注作废。</p>
+          </div>
+        </a>
+        <a class="feature-card" href="/#news">
+          <img src="https://picsum.photos/seed/peachgirl-festival/560/320" width="560" height="320" loading="lazy" alt="校园祭摊位布景，粉色布幔与纸灯笼">
+          <div class="fc-body">
+            <div class="fc-meta">资讯 · 11 月 6 日</div>
+            <h3>校园祭布景稿开放核对</h3>
+            <p>布景稿共 6 张，摊位编号与动画第 8 集背景一致。第 3 号摊位的招牌字迹是后续关键。</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 3 最新更新 -->
+    <section class="block" id="latest" aria-labelledby="h-latest">
+      <div class="block-head">
+        <span class="kicker">03 最新更新</span>
+        <h2 id="h-latest">11 月 1 日至 8 日的条目动态</h2>
+      </div>
+      <p class="block-sub">只列能点开核对的具体项，日期与集数一一对应。</p>
+      <ul class="list-tight">
+        <li><span class="date">今天</span><span class="txt"><b>第 9 集分镜稿 22 张</b>发布，其中第 14 张的镜头说明提到“回望”，与第 2 集结尾呼应。<span class="tagline">对照位置：分镜稿 14 / 动画 08:52</span></span></li>
+        <li><span class="date">昨天</span><span class="txt"><b>观众短评新增 10 条</b>，其中 3 条直接讨论第 6 集的雨夜段落。语气分布为赞 4、中 3、吐槽 3。<span class="tagline">对应栏目：观众评论</span></span></li>
+        <li><span class="date">11-06</span><span class="txt"><b>校园祭布景稿 6 张</b>开放核对，摊位编号从 1 到 6，与第 8 集背景画面对照后 5 处一致、1 处招牌字改动。<span class="tagline">对应栏目：相关资讯</span></span></li>
+        <li><span class="date">11-04</span><span class="txt"><b>角色关系图更新到 v3</b>，修正学长辈分，新增 2 条虚线标注“同班但不同社团”。<span class="tagline">修订记录：v2 于 10-21 发布</span></span></li>
+        <li><span class="date">11-02</span><span class="txt"><b>第 7 集片尾彩蛋时长</b>由 9 秒补到 14 秒，追加一个空镜，云影移动方向与第 4 集相反。<span class="tagline">差异点：片尾 01:02–01:16</span></span></li>
+      </ul>
+    </section>
+
+    <!-- 4 分类频道 -->
+    <section class="block" id="channels" aria-labelledby="h-channels">
+      <div class="block-head">
+        <span class="kicker">04 分类入口</span>
+        <h2 id="h-channels">12 个频道，按想找的东西挑</h2>
+      </div>
+      <p class="block-sub">频道名用常见搜索词，不绕弯。每个入口对应一类可核对内容。</p>
+      <div class="channel-index">
+        <a href="/#deep">分镜逐格<span>镜头说明与时间码</span></a>
+        <a href="/#picks">角色关系<span>连线版本与台词</span></a>
+        <a href="/#guide">观看顺序<span>彩蛋与插入位置</span></a>
+        <a href="/#latest">更新日历<span>集数与稿件日期</span></a>
+        <a href="/#reviews">观众短评<span>含吐槽与中性评价</span></a>
+        <a href="/#deep">伏笔回收<span>信件与旧照片</span></a>
+        <a href="/#picks">配色参考<span>粉调与补色对照</span></a>
+        <a href="/#faq">术语解释<span>分镜、过肩、空镜</span></a>
+        <a href="/#news">制作动态<span>稿件与布景稿</span></a>
+        <a href="/#timeline">时间线<span>事件先后与日期</span></a>
+        <a href="/#compare">对照面板<span>两版差异并列</span></a>
+        <a href="/#tags">相关推荐<span>按关键词跳转</span></a>
+      </div>
+    </section>
+
+    <!-- 5 深度解析 -->
+    <section class="block deep" id="deep" aria-labelledby="h-deep">
+      <div class="block-head">
+        <span class="kicker">05 深度解析</span>
+        <h2 id="h-deep">第 9 集“回望”镜头并非情绪高潮，它更像一次剪辑上的对账</h2>
+      </div>
+      <p>先把判断摆在前面：第 9 集 08:52 的那个回望镜头，作用是把第 2 集结尾留下的视线方向补齐，而不负责把情绪推到顶点。理由有三条，都能对着时间码核对。</p>
+
+      <h3>一、镜头时长与第 2 集的对称差</h3>
+      <p>第 2 集结尾，主角在走廊尽头回头，镜头停 3.2 秒，人物占画面宽度约 42%。第 9 集 08:52 的同类镜头停 3.4 秒，人物占比 40%。两者相差 0.2 秒、2 个百分点，不能算“升级”。若真是情绪高潮，通常会把停留拉到 4 秒以上，并把背景虚化压到更低。这里没有。</p>
+      <div class="quote-card">
+        “分镜稿第 14 张的批注写的是‘视线接上，别多给’，不是‘加重’。”
+        <cite>— 第 9 集分镜稿，镜头说明栏，11 月 8 日释出</cite>
+      </div>
+
+      <h3>二、台词删减记录显示方向是“对账”</h3>
+      <p>第 9 集台本初稿在回望处有 2 句台词，共 18 字；成片只剩 1 句 7 字。删掉的那句是“你那时候在看什么”，留下的那句是“原来在那边”。前者是追问，后者是确认。措辞变动把动作从“发起”改成“确认”，与“对账”的判断一致。</p>
+      <table class="compare-table">
+        <thead>
+          <tr><th>核对项</th><th>台本初稿（10 月 18 日版）</th><th>成片（11 月 5 日版）</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>回望处台词</td><td>2 句 / 18 字</td><td>1 句 / 7 字</td></tr>
+          <tr><td>镜头停留</td><td>未标注</td><td>3.4 秒</td></tr>
+          <tr><td>人物画面占比</td><td>未标注</td><td>约 40%</td></tr>
+          <tr><td>背景处理</td><td>“走廊可辨”</td><td>走廊轮廓保留，未强虚化</td></tr>
+        </tbody>
+      </table>
+
+      <h3>三、与片尾彩蛋的先后关系</h3>
+      <p>第 9 集片尾彩蛋 14 秒，空镜里的云影从左向右移。第 4 集同位置空镜的云影从右向左。方向相反，说明两处不是同一时段的连拍，而是刻意做的时间标记。若回望镜头真是情绪高点，彩蛋通常会把人物再带回画面；这里没有，人物始终缺席。情绪线在第 9 集被主动压住，留给后续集数。</p>
+
+      <div class="fact-box">
+        <b>可核对清单（判断拆解）</b>
+        <ul>
+          <li>时间码：第 2 集 21:12–21:15；第 9 集 08:52–08:55。</li>
+          <li>分镜稿：第 9 集第 14 张，批注“视线接上，别多给”。</li>
+          <li>台词差异：删 18 字留 7 字，措辞由追问改为确认。</li>
+          <li>彩蛋：第 7 集补到 14 秒；第 4 与第 9 集云影方向相反。</li>
+        </ul>
+      </div>
+
+      <p>需要提醒的是，以上是依据已释出材料做的推断，属可反驳判断。若后续第 10 集把这条视线重新剪进回忆段落并加长停留，那“对账”一说就要让位给“铺垫”。目前材料只支持前者。</p>
+    </section>
+
+    <!-- 6 体验指南 -->
+    <section class="block" id="guide" aria-labelledby="h-guide">
+      <div class="block-head">
+        <span class="kicker">06 体验指南</span>
+        <h2 id="h-guide">按这四步走，第一次看也不容易漏线索</h2>
+      </div>
+      <p class="block-sub">给新观众的顺序建议，步骤之间留出核对时间，不必一次刷完。</p>
+      <ol class="steps">
+        <li>
+          <h3>先看第 1 集到第 3 集，记信封出现的位置</h3>
+          <p>第 1 集 21:40、第 3 集 12:04、第 3 集 19:22 各一次。三次邮戳城市不同，先记下来，不急着解释。</p>
+        </li>
+        <li>
+          <h3>跳到第 5 集天台段，只看机位</h3>
+          <p>06:30 与 15:48 两段对照。台词几乎一样，站位从 2.4 米缩到 1.1 米，机位从平视切过肩。先看画面再听台词。</p>
+        </li>
+        <li>
+          <h3>回看第 6 集雨夜，注意声音层次</h3>
+          <p>雨声在 04:10 后压低了 3 分贝左右，脚步声变清。这个处理让后面的两句对白显得近，观众容易误以为两人距离变近，其实站位没动。</p>
+        </li>
+        <li>
+          <h3>最后看第 9 集，并对一遍分镜稿</h3>
+          <p>分镜稿第 14 张对应 08:52。把批注“视线接上，别多给”与成片停留 3.4 秒并排看，就能理解为什么这个镜头不该被当作高潮。</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 7 FAQ -->
+    <section class="block" id="faq" aria-labelledby="h-faq">
+      <div class="block-head">
+        <span class="kicker">07 常见问答</span>
+        <h2 id="h-faq">关于观看与条目的 7 个问题</h2>
+      </div>
+      <p class="block-sub">问法取自常见搜索，回答主语是作品与条目本身。</p>
+      <details class="faq">
+        <summary>第 1 集到第 9 集必须按顺序看吗？</summary>
+        <div class="faq-body">建议按顺序，但第 5 集天台段和第 6 集雨夜段可以单独抽看。这两段与主线线索的耦合度低，先看也不影响理解第 9 集的回望镜头。抽看时留意时间码，不要跳过片尾彩蛋。</div>
+      </details>
+      <details class="faq">
+        <summary>旧邮戳信封到底出现了几次？</summary>
+        <div class="faq-body">已释出集数里明确出现 3 次：第 1 集 21:40、第 3 集 12:04、第 3 集 19:22。第 7 集书架背景里还有一次模糊轮廓，但字迹不可辨，一般不计入。三次邮戳城市分别是北岭、南屿、北岭，第二与第三次之间隔了 4 天剧情时间。</div>
+      </details>
+      <details class="faq">
+        <summary>关系图 v3 改了哪几条线？</summary>
+        <div class="faq-body">改了两处。第一处是美术部学长的辈分，v2 标“同级”，v3 改为“学长”；第二处是新增 2 条虚线，标注“同班但不同社团”。其余 12 条连线未动。改动影响到第 7 集的两处称呼台词，旧图已标注作废。</div>
+      </details>
+      <details class="faq">
+        <summary>第 6 集雨夜的对白为什么听起来更近？</summary>
+        <div class="faq-body">声音处理把雨声在 04:10 后压低约 3 分贝，脚步声和呼吸声凸显，人耳会把清晰度提升误判为距离缩短。画面上两人站位与前一镜头一致，没有靠近。这条常被观众讨论，但属于听觉错觉。</div>
+      </details>
+      <details class="faq">
+        <summary>彩蛋只有三集有吗？</summary>
+        <div class="faq-body">目前确认第 3、6、9 集有片尾彩蛋，时长分别约 8 秒、11 秒、14 秒。第 7 集片尾在 11 月 2 日补到 14 秒，追加的是空镜，不算人物彩蛋。其余集数片尾直接进字幕，无附加画面。</div>
+      </details>
+      <details class="faq">
+        <summary>分镜稿和成片对不上时以哪个为准？</summary>
+        <div class="faq-body">以成片为准，分镜稿只作为意图参考。第 9 集第 14 张批注写“别多给”，成片停留 3.4 秒；两者不矛盾，批注说的是方向，数字由成片定。遇到明显出入，先看台本版本日期，再看分镜稿释出日期。</div>
+      </details>
+      <details class="faq">
+        <summary>校园祭布景稿里哪处与动画不同？</summary>
+        <div class="faq-body">6 张布景稿中，第 3 号摊位的招牌字迹与第 8 集背景画面不同。布景稿写的是“桃屋”，动画里为“桃庵”。这一处差异被观众在第 8 集评论区反复提到，后续是否解释尚未确认。</div>
+      </details>
+    </section>
+
+    <!-- 8 用户评论 -->
+    <section class="block" id="reviews" aria-labelledby="h-reviews">
+      <div class="block-head">
+        <span class="kicker">08 观众评论</span>
+        <h2 id="h-reviews">37 条短评里的 6 条原样摘录</h2>
+      </div>
+      <p class="block-sub">保留语气差异，赞、中、吐槽都收。带条目指向的评论单独标出。</p>
+      <div class="review-grid">
+        <div class="review">
+          <div class="who"><span class="avatar" style="background:#c2435d">桃</span>桃味汽水 · 11-07</div>
+          <p>第 9 集回望那一下我反复看了四遍，确实不像高潮，更像把第 2 集的视线接上。分镜稿那句“别多给”很说明问题。</p>
+          <div class="stars">★★★★☆</div>
+          <div class="ref">指向：第 9 集 08:52</div>
+        </div>
+        <div class="review">
+          <div class="who"><span class="avatar" style="background:#4f8a72">阿</span>阿柚不熬夜 · 11-07</div>
+          <p>第 6 集雨夜那段的雨声处理有点意思，但我第一次看真以为是两人走近了。后来对着画面看，站位根本没动，属于耳朵骗人。</p>
+          <div class="stars">★★★☆☆</div>
+          <div class="ref">指向：第 6 集 04:10</div>
+        </div>
+        <div class="review">
+          <div class="who"><span class="avatar" style="background:#c79a4b">分</span>分镜收集癖 · 11-06</div>
+          <p>第 3 集 12:04 的信封和第 1 集 21:40 同款，邮戳城市不一样。这个细节做得细，比单纯煽情有用。</p>
+          <div class="stars">★★★★★</div>
+          <div class="ref">指向：第 3 集 12:04</div>
+        </div>
+        <div class="review">
+          <div class="who"><span class="avatar" style="background:#8a7c8e">路</span>路过的书虫 · 11-05</div>
+          <p>布景稿第 3 号摊位写成“桃屋”，动画里是“桃庵”。这种不一致看着难受，希望后面给个说法。</p>
+          <div class="stars">★★☆☆☆</div>
+          <div class="ref">指向：第 8 集背景 / 布景稿第 3 张</div>
+        </div>
+        <div class="review">
+          <div class="who"><span class="avatar" style="background:#a93750">卷</span>卷心菜卷 · 11-04</div>
+          <p>整体节奏偏慢，第 4 集整集都在铺垫，彩蛋反而比正片信息多。不是不能慢，但慢得要有内容。</p>
+          <div class="stars">★★☆☆☆</div>
+          <div class="ref">指向：第 4 集全片</div>
+        </div>
+        <div class="review">
+          <div class="who"><span class="avatar" style="background:#5c4f60">中</span>中性观众 · 11-03</div>
+          <p>配色确实好看，粉调压得住。但人物线条偏细，某些远景里五官有点糊，投到大屏会明显。观望后续。</p>
+          <div class="stars">★★★☆☆</div>
+          <div class="ref">指向：第 4 集 12:30 远景</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9 相关资讯 -->
+    <section class="block" id="news" aria-labelledby="h-news">
+      <div class="block-head">
+        <span class="kicker">09 相关资讯</span>
+        <h2 id="h-news">制作与周边动态（11 月 1 日至 8 日）</h2>
+      </div>
+      <ul class="news-list">
+        <li>
+          <a class="head" href="/#deep">第 9 集分镜稿释出 22 张，第 14 张批注被单独讨论</a>
+          <div class="src">来源：分镜稿释出页 · 11 月 8 日 · 涉及镜头 08:52</div>
+        </li>
+        <li>
+          <a class="head" href="/#faq">校园祭布景稿 6 张开放核对，第 3 号摊位字迹存疑</a>
+          <div class="src">来源：布景稿核对页 · 11 月 6 日 · 对照第 8 集背景</div>
+        </li>
+        <li>
+          <a class="head" href="/#compare">角色关系图 v3 发布，修正学长辈分并加 2 条虚线</a>
+          <div class="src">来源：关系图修订记录 · 11 月 4 日 · v2 于 10 月 21 日发布</div>
+        </li>
+        <li>
+          <a class="head" href="/#timeline">第 7 集片尾彩蛋由 9 秒补至 14 秒，追加空镜</a>
+          <div class="src">来源：片尾修订说明 · 11 月 2 日 · 差异区间 01:02–01:16</div>
+        </li>
+        <li>
+          <a class="head" href="/#reviews">观众短评累计 37 条，雨夜段讨论占比接近三成</a>
+          <div class="src">来源：短评汇总 · 11 月 7 日 · 含赞 15、中 12、吐槽 10</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 10 对照面板 -->
+    <section class="block" id="compare" aria-labelledby="h-compare">
+      <div class="block-head">
+        <span class="kicker">10 对照面板</span>
+        <h2 id="h-compare">两版关系图与两版片尾的差异并列</h2>
+      </div>
+      <p class="block-sub">把修改前后的差别放在同一张面板里，避免来回翻页。</p>
+      <table class="compare-table">
+        <thead>
+          <tr><th>对比项</th><th>旧版</th><th>新版</th><th>影响条目</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>美术部学长辈分</td><td>同级</td><td>学长</td><td>第 7 集称呼台词</td></tr>
+          <tr><td>同班不同社团连线</td><td>0 条</td><td>2 条</td><td>第 5、8 集背景人物</td></tr>
+          <tr><td>第 7 集片尾时长</td><td>9 秒</td><td>14 秒</td><td>空镜云影方向</td></tr>
+          <tr><td>第 9 集回望镜头</td><td>未标注停留</td><td>3.4 秒</td><td>08:52 段落</td></tr>
+        </tbody>
+      </table>
+      <p>两版并列时最容易看出的并不是数量变化，而是改动都集中在“称呼”和“时间标记”上。辈分改了，称呼就得跟着改；彩蛋补了 5 秒，云影方向就成了可核对的时间证据。这类改动通常不为炫技，而是为了让前后集数在细节上能对得上。</p>
+    </section>
+
+    <!-- 11 时间线 -->
+    <section class="block" id="timeline" aria-labelledby="h-timeline">
+      <div class="block-head">
+        <span class="kicker">11 事件时间线</span>
+        <h2 id="h-timeline">从 10 月 21 日到 11 月 8 日</h2>
+      </div>
+      <ul class="timeline">
+        <li><span class="t">10-21</span><b>关系图 v2 发布</b>，把美术部学长标为同级，共 12 条连线。</li>
+        <li><span class="t">10-28</span><b>第 9 集台本初稿定稿</b>，回望处保留 2 句台词、18 字。</li>
+        <li><span class="t">11-01</span><b>第 8 集校园祭段落上线</b>，背景出现“桃庵”招牌，与布景稿字迹不同。</li>
+        <li><span class="t">11-02</span><b>第 7 集片尾补至 14 秒</b>，追加空镜，云影从左向右。</li>
+        <li><span class="t">11-04</span><b>关系图 v3 发布</b>，修正辈分、新增 2 条虚线。</li>
+        <li><span class="t">11-05</span><b>第 9 集成片</b>，回望处台本删到 1 句 7 字，停留 3.4 秒。</li>
+        <li><span class="t">11-06</span><b>布景稿 6 张开放核对</b>，第 3 号摊位字迹差异被记录。</li>
+        <li><span class="t">11-08</span><b>第 9 集分镜稿 22 张释出</b>，第 14 张批注被单独讨论。</li>
+      </ul>
+    </section>
+
+    <!-- 12 相关推荐 -->
+    <section class="block" id="tags" aria-labelledby="h-tags">
+      <div class="block-head">
+        <span class="kicker">12 相关推荐</span>
+        <h2 id="h-tags">按关键词跳转</h2>
+      </div>
+      <p class="block-sub">每个标签对应一处可核对内容，点进去就能看到具体条目。</p>
+      <div class="tag-cloud">
+        <a href="/#deep">第 9 集回望镜头</a>
+        <a href="/#faq">旧邮戳信封邮戳城市</a>
+        <a href="/#compare">角色关系图 v3 改动</a>
+        <a href="/#guide">第 6 集雨夜声音层次</a>
+        <a href="/#news">校园祭第 3 号摊位招牌</a>
+        <a href="/#timeline">第 7 集片尾彩蛋时长</a>
+        <a href="/#reviews">第 9 集分镜稿批注</a>
+        <a href="/#picks">天台对手戏站位变化</a>
+        <a href="/#latest">10 月 28 日台本初稿</a>
+        <a href="/#faq">低饱和粉调配色</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="side-col" aria-label="侧栏导航与数据">
+    <div class="side-box">
+      <h2>栏目导航</h2>
+      <ul class="side-nav" id="sideNav">
+        <li><a href="/#overview">领域概览</a></li>
+        <li><a href="/#picks">精选推荐</a></li>
+        <li><a href="/#latest">最新更新</a></li>
+        <li><a href="/#channels">分类频道</a></li>
+        <li><a href="/#deep">深度解析</a></li>
+        <li><a href="/#guide">体验指南</a></li>
+        <li><a href="/#faq">常见问答</a></li>
+        <li><a href="/#reviews">观众评论</a></li>
+        <li><a href="/#news">相关资讯</a></li>
+        <li><a href="/#compare">对照面板</a></li>
+        <li><a href="/#timeline">事件时间线</a></li>
+        <li><a href="/#tags">相关推荐</a></li>
+      </ul>
+    </div>
+    <div class="side-box">
+      <h2>规模一览</h2>
+      <div class="side-stats">
+        <div><b>9</b><span>集数</span></div>
+        <div><b>22</b><span>分镜稿张数</span></div>
+        <div><b>14</b><span>人物连线</span></div>
+        <div><b>37</b><span>短评条数</span></div>
+      </div>
+      <p class="side-note">数据截止 11 月 8 日；短评与分镜稿数量随更新变动，以正文可核对条目为准。</p>
+    </div>
+    <div class="side-box">
+      <h2>核对提示</h2>
+      <p class="side-note">分镜稿、布景稿与关系图出现出入时，先比版本日期，再看成片时间码。正文中所有“未确认”“存疑”说法均属推测，非定论。</p>
+    </div>
+  </aside>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer" id="footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#f7a8b8"/>
+          <circle cx="32" cy="28" r="13" fill="#fff5f7"/>
+          <path d="M32 41c-9 0-15 6-16 14h32c-1-8-7-14-16-14z" fill="#fff5f7"/>
+          <circle cx="27" cy="27" r="1.6" fill="#6b3d52"/>
+          <circle cx="37" cy="27" r="1.6" fill="#6b3d52"/>
+        </svg>
+        <span>白桃少女在线看</span>
+      </div>
+      <p>逐集记分镜、拆台词、对版本，把散在讨论区里的观察收拢成能核对的时间码。</p>
+    </div>
+    <div class="footer-col">
+      <h3>观看与条目</h3>
+      <a href="/#overview">领域概览</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#channels">分类频道</a>
+      <a href="/#timeline">事件时间线</a>
+    </div>
+    <div class="footer-col">
+      <h3>解读与讨论</h3>
+      <a href="/#deep">深度解析</a>
+      <a href="/#compare">对照面板</a>
+      <a href="/#reviews">观众评论</a>
+      <a href="/#faq">常见问答</a>
+    </div>
+    <div class="footer-col">
+      <h3>动态与推荐</h3>
+      <a href="/#latest">最新更新</a>
+      <a href="/#news">相关资讯</a>
+      <a href="/#picks">精选推荐</a>
+      <a href="/#tags">相关推荐</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>本站内容含示例条目与观众摘录，角色、集数与时间为整理用数据，具体以官方释出为准。更新时间：2026 年 11 月 8 日，对应第 9 集分镜稿释出与短评汇总。</span>
+    <span>© 2026 白桃少女在线看 条目整理</span>
+  </div>
+</footer>
+
+<button id="backTop" aria-label="回到顶部" title="回到顶部">
+  <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 14V4M4.5 8.5L9 4l4.5 4.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script>
+(function(){
+  // mobile nav
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('mainNav');
+  if(toggle && nav){
+    toggle.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.setAttribute('aria-label', open ? '收起主题导航' : '展开主题导航');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded','false');
+        toggle.setAttribute('aria-label','展开主题导航');
+      }
+    });
+  }
+
+  // back to top
+  var backTop = document.getElementById('backTop');
+  function onScroll(){
+    if(window.scrollY > 420){ backTop.classList.add('show'); }
+    else{ backTop.classList.remove('show'); }
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+  backTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  // scroll spy
+  var links = Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  var sections = links.map(function(a){
+    var id = a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  }).filter(Boolean);
+  function spy(){
+    var pos = window.scrollY + 150;
+    var current = sections[0];
+    sections.forEach(function(s){
+      if(s.offsetTop <= pos){ current = s; }
+    });
+    links.forEach(function(a){
+      var id = a.getAttribute('href').replace('/#','');
+      if(current && id === current.id){ a.classList.add('active'); }
+      else{ a.classList.remove('active'); }
+    });
+  }
+  window.addEventListener('scroll', spy, {passive:true});
+  spy();
+
+  // local search
+  var input = document.getElementById('searchInput');
+  var fb = document.getElementById('searchFeedback');
+  var index = [];
+  document.querySelectorAll('h1,h2,h3,summary,.head,.list-tight .txt,.review p,.tag-cloud a,.channel-index a,.mini-card h3,.feature-card h3,.timeline li').forEach(function(el){
+    var t = (el.textContent || '').replace(/\s+/g,' ').trim();
+    if(t.length > 3){
+      var target = el.closest('section');
+      index.push({text:t, id: target ? target.id : ''});
+    }
+  });
+
+  input.addEventListener('input', function(){
+    var q = input.value.trim();
+    if(!q){
+      fb.classList.remove('show');
+      fb.innerHTML = '';
+      return;
+    }
+    var ql = q.toLowerCase();
+    var hits = index.filter(function(item){
+      return item.text.toLowerCase().indexOf(ql) !== -1;
+    }).slice(0, 6);
+    fb.classList.add('show');
+    if(hits.length === 0){
+      fb.innerHTML = '没有找到与 <b>' + escapeHtml(q) + '</b> 相关的条目。可试试「回望镜头」「邮戳」「关系图」或集数编号。';
+    }else{
+      var html = '找到 ' + hits.length + ' 条：<br>';
+      hits.forEach(function(h){
+        html += '<a href="/#' + h.id + '">' + escapeHtml(h.text.slice(0, 48)) + (h.text.length > 48 ? '…' : '') + '</a><br>';
+      });
+      fb.innerHTML = html;
+    }
+  });
+
+  function escapeHtml(s){
+    return s.replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "白桃少女在线看",
+  "description": "围绕少女向剧集的逐集拆解、条目对照与观众讨论汇总，含分镜稿、关系图版本差异与观看顺序建议。",
+  "inLanguage": "zh-CN"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "第 1 集到第 9 集必须按顺序看吗？",
+      "acceptedAnswer": {"@type": "Answer", "text": "建议按顺序，但第 5 集天台段和第 6 集雨夜段可以单独抽看。这两段与主线线索的耦合度低，先看也不影响理解第 9 集的回望镜头。抽看时留意时间码，不要跳过片尾彩蛋。"}
+    },
+    {
+      "@type": "Question",
+      "name": "旧邮戳信封到底出现了几次？",
+      "acceptedAnswer": {"@type": "Answer", "text": "已释出集数里明确出现 3 次：第 1 集 21:40、第 3 集 12:04、第 3 集 19:22。第 7 集书架背景里还有一次模糊轮廓，但字迹不可辨，一般不计入。"}
+    },
+    {
+      "@type": "Question",
+      "name": "关系图 v3 改了哪几条线？",
+      "acceptedAnswer": {"@type": "Answer", "text": "改了两处。美术部学长辈分由“同级”改为“学长”，并新增 2 条“同班但不同社团”虚线，其余 12 条连线未动。"}
+    },
+    {
+      "@type": "Question",
+      "name": "第 6 集雨夜的对白为什么听起来更近？",
+      "acceptedAnswer": {"@type": "Answer", "text": "声音处理把雨声在 04:10 后压低约 3 分贝，脚步声和呼吸声凸显，人耳会把清晰度提升误判为距离缩短。画面上两人站位与前一镜头一致，没有靠近。"}
+    },
+    {
+      "@type": "Question",
+      "name": "彩蛋只有三集有吗？",
+      "acceptedAnswer": {"@type": "Answer", "text": "目前确认第 3、6、9 集有片尾彩蛋，时长分别约 8 秒、11 秒、14 秒。第 7 集片尾在 11 月 2 日补到 14 秒，追加的是空镜，不算人物彩蛋。"}
+    },
+    {
+      "@type": "Question",
+      "name": "分镜稿和成片对不上时以哪个为准？",
+      "acceptedAnswer": {"@type": "Answer", "text": "以成片为准，分镜稿只作为意图参考。第 9 集第 14 张批注写“别多给”，成片停留 3.4 秒；两者不矛盾，批注说的是方向，数字由成片定。"}
+    },
+    {
+      "@type": "Question",
+      "name": "校园祭布景稿里哪处与动画不同？",
+      "acceptedAnswer": {"@type": "Answer", "text": "6 张布景稿中，第 3 号摊位的招牌字迹与第 8 集背景画面不同。布景稿写的是“桃屋”，动画里为“桃庵”。后续是否解释尚未确认。"}
+    }
+  ]
+}
+</script>
+</body>
+</html>
